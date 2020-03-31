@@ -10,7 +10,7 @@ Chocolatey是一种软件管理解决方案，与您在Windows上经历过的任
 
 1.以管理员身份运行Windows PowerShell，必须确保[Get-ExecutionPolicy]不受限制。我们建议使用`Bypass`绕过策略来安装东西或`AllSigned`提高安全性。
 
-![](.\images\image-20200331144122018.png)
+![](./images/image-20200331144122018.png)
 ## 步骤2
 2.运行`Get-ExecutionPolicy`。如果返回`Restricted`，则运行`Set-ExecutionPolicy AllSigned`或`Set-ExecutionPolicy Bypass -Scope Process`。
 
