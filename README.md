@@ -117,7 +117,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 使用cd命令进入你想要下载课程的文件夹目录后再执行如下命令：
 
-coursera-dl -u <yourUserName> -p <yourPassword> the-science-of-well-being -ca <yourCookieCAUTH>
+coursera-dl -u yourUserName -p yourPassword the-science-of-well-being -ca yourCookieCAUTH
 
 其中yourUserName就是你注册的账号，yourPassword是你的登陆密码，yourCookieCAUTH是通过EditThisCookie获取到的CAUTH的值，这里不暴漏个人信息就不截图了。
 
