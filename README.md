@@ -31,7 +31,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 ![image-20200331145304329](C:\Users\焦俊\AppData\Roaming\Typora\typora-user-images\image-20200331145304329.png)
 
-#2 使用chocolatey安装python3
+# 2 使用chocolatey安装python3
 
 安装Python 3非常简单，因为Chocolatey将Python 3推为默认设置。
 
