@@ -93,7 +93,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 安装过程简单（略），其实找这个程序在google商店是找不到的，要在google里搜索才可以，如果无法连接google的同学，自行想办法咯。
 
-#6.注册coursera-dl账号并登陆
+# 6.注册coursera-dl账号并登陆
 
 注册和登陆过程比较简单（略）
 
@@ -111,13 +111,13 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 ![image-20200331161427684](./images/image-20200331161427684.png)
 
-至此，您的环境已经OK了，可以批量去下载课程了。。。这看起来如此简单的事情，就是需要这么折腾才可以完成。
+至此，您的环境已经OK了，可以批量去下载课程了。。。看起来如此简单的事情，就是需要这么折腾才可以完成。
 
 # 9.下载课程
 
-使用cd命令进入你想要下载课程的文件夹目录候再执行
+使用cd命令进入你想要下载课程的文件夹目录后再执行如下命令：
 
-coursera-dl -u <yourUserName> -p <yourPassword> the-science-of-well-being -ca <yourCookieCAUTH>
+coursera-dl -u yourUserName -p yourPassword the-science-of-well-being -ca yourCookieCAUTH
 
 其中yourUserName就是你注册的账号，yourPassword是你的登陆密码，yourCookieCAUTH是通过EditThisCookie获取到的CAUTH的值，这里不暴漏个人信息就不截图了。
 
