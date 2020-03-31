@@ -1,24 +1,24 @@
-#Windows 10 环境下载耶鲁大学免费幸福课操作指南
+# Windows 10 环境下载耶鲁大学免费幸福课操作指南
 
-#1.安装chocolatey
+# 1.安装chocolatey
 
-##0.Chocolatey是什么？
+## 0.Chocolatey是什么？
 
 Chocolatey是一种软件管理解决方案，与您在Windows上经历过的任何其他事情都不一样。Chocolatey引入了真正的包管理概念，使您可以对事物进行版本控制，管理依赖关系和安装顺序，更好的库存管理以及其他功能。它是Windows 7+的社区系统打包程序管理器。（非常类似于OS X上的Homebrew。）
 
-##步骤1
+## 步骤1
 
 1.以管理员身份运行Windows PowerShell，必须确保[Get-ExecutionPolicy]不受限制。我们建议使用`Bypass`绕过策略来安装东西或`AllSigned`提高安全性。
 
 ![](C:\Users\焦俊\AppData\Roaming\Typora\typora-user-images\image-20200331144122018.png)
-##步骤2
+## 步骤2
 2.运行`Get-ExecutionPolicy`。如果返回`Restricted`，则运行`Set-ExecutionPolicy AllSigned`或`Set-ExecutionPolicy Bypass -Scope Process`。
 
 ![image-20200331144808763](C:\Users\焦俊\AppData\Roaming\Typora\typora-user-images\image-20200331144808763.png)
-##步骤3
+## 步骤3
 3. 输入选择 A（全是）
 
-##步骤4
+## 步骤4
 4.运行如下命令
 
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
@@ -26,7 +26,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ![image-20200331145124379](C:\Users\焦俊\AppData\Roaming\Typora\typora-user-images\image-20200331145124379.png)
 
 等待几秒钟后运行结束。。。
-##步骤5
+## 步骤5
 5.如果没有看到任何Error，则可以使用Chocolatey！键入`choco`或`choco -?`，进行验证。
 
 ![image-20200331145304329](C:\Users\焦俊\AppData\Roaming\Typora\typora-user-images\image-20200331145304329.png)
@@ -35,7 +35,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 安装Python 3非常简单，因为Chocolatey将Python 3推为默认设置。
 
-##步骤1
+## 步骤1
 
 1.运行choco install python后，您应该能够直接从控制台启动Python。（Chocolatey很棒棒，它会自动将Python添加到您的环境变量Path中，以便你后续可以直接在任何地方使用python命令）
 
@@ -121,5 +121,5 @@ coursera-dl -u <yourUserName> -p <yourPassword> the-science-of-well-being -ca <y
 
 其中yourUserName就是你注册的账号，yourPassword是你的登陆密码，yourCookieCAUTH是通过EditThisCookie获取到的CAUTH的值，这里不暴漏个人信息就不截图了。
 
-敲完命令，回车，等候你的课程下载完成吧~~具体花费时间和自身所处网络环境有关。
+敲完命令，回车，等候你的课程下载完成吧~。
 
