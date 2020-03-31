@@ -111,11 +111,11 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 ![image-20200331161427684](./images/image-20200331161427684.png)
 
-至此，您的环境已经OK了，可以批量去下载课程了。。。这看起来如此简单的事情，就是需要这么折腾才可以完成。
+至此，您的环境已经OK了，可以批量去下载课程了。。。看起来如此简单的事情，就是需要这么折腾才可以完成。
 
 # 9.下载课程
 
-使用cd命令进入你想要下载课程的文件夹目录候再执行
+使用cd命令进入你想要下载课程的文件夹目录后再执行如下命令：
 
 coursera-dl -u <yourUserName> -p <yourPassword> the-science-of-well-being -ca <yourCookieCAUTH>
 
