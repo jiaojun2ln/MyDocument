@@ -93,7 +93,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 安装过程简单（略），其实找这个程序在google商店是找不到的，要在google里搜索才可以，如果无法连接google的同学，自行想办法咯。
 
-#6.注册coursera-dl账号并登陆
+# 6.注册coursera-dl账号并登陆
 
 注册和登陆过程比较简单（略）
 
