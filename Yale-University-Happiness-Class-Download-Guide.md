@@ -56,6 +56,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ## 步骤4
 
 4.关闭Windows PowerShell窗口重新打开
+为什么要关闭重新打开呢？这是因为很多时候环境变量的设置并不会在当前命令行窗口生效，只有下次重新打开新的命令行窗口，您的环境变量设置才能真正生效和激活。
 
 ![image-20200331150733923](./images/image-20200331150733923.png)
 
